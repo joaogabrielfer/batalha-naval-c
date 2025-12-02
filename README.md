@@ -4,8 +4,8 @@
 
 Para compilar em /build/main:
 ```sh 
-    make 
-    ```
+    make
+```
 
 Para compilar em /build/main e já rodar o programa:
 ```sh 

@@ -20,19 +20,6 @@ Home_opt print_home(){
 	return UNDEFINED;
 }
 
-void print_new_game(){
-	char nickname_1[64];
-	get_nickname(nickname_1, 1);
-	char nickname_2[64];
-	get_nickname(nickname_2, 2);
-	int table_size = get_table_size();
-	bool is_automatic = is_automatic_position();
-
-	printf("apelidos: %s e %s\n", nickname_1, nickname_2);
-	printf("tamanho do tabuleiro: %d\n", table_size);
-	printf("%sé automatico\n", is_automatic ? "" : "não ");
-}
-
 void get_nickname(char* nickname, int nickname_num) {
 	printf("Insira o apelido do jogador %d:\n> ", nickname_num);
 	scanf("%s", nickname);

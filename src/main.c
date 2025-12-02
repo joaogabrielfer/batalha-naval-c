@@ -9,7 +9,7 @@ void clear_screen() {
     system("cls")
 #else
     system("clear");
-#endif
+#endif //_WIN32
 }
 
 int main() {

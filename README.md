@@ -4,12 +4,12 @@
 
 Para compilar em /build/main:
 ```sh 
-    make
+make
 ```
 
 Para compilar em /build/main e já rodar o programa:
 ```sh 
-    make run
+make run
 ```
 
 ### Grupo 
